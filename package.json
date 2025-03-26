@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-bxg",
-  "description": "爆小鬼 检测敏感言论并撤回",
-  "version": "0.0.1",
+  "description": "往你的群里放一只爆小鬼，检测到敏感言论就会发爆！（有撤回禁言功能）",
+  "version": "1.0.6",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,13 +9,15 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xsjh/koishi-plugin-bxg"
+  },
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.18.3"
   }
